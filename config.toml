@@ -8,8 +8,8 @@ publishDir = 'docs'
 [[menu.main]]
   identifier = 'about'
   name = 'About us'
-  url = '/hugo-site/about/'
+  url = '/about/'
 [[menu.main]]
   identifier = 'posts'
   name = 'Articles'
-  url = '/hugo-site/posts/'
+  url = '/posts/'
