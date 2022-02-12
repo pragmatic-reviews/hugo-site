@@ -13,3 +13,7 @@ publishDir = 'docs'
   identifier = 'posts'
   name = 'Articles'
   url = '/posts/'
+[[menu.main]]
+  identifier = 'quotes'
+  name = 'Quotes'
+  url = '/quotes/'

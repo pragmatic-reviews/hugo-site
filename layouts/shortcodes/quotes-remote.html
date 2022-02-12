@@ -1,0 +1,10 @@
+
+{{ $data := getJSON "https://programming-quotes-api.herokuapp.com/Quotes?count=10"}}
+
+{{ range $data }}
+<div> 
+  <p>{{.en}}</p>
+  <p>{{.author}}</p>
+</div>
+<hr/>
+{{ end }}
